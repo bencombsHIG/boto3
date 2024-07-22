@@ -21,12 +21,12 @@
 
 | **Method**         | **Purpose** | **Best Use Cases** | **Pros** | **Cons** |
 | ------------------ | ----------- | ------------------ | -------- | -------- |
-| `upload_file`      | Handles large file uploads by chunking. | uploading large files to s3 | supports multi-part uploads | less configurable. |
-| `upload_fileobj`   | Upload readbale file-like objects that are in binary or no-text mode | object is file-like|  |          |
-| `put_object`       | Adds object/file to s3 using low-level s3 api |  | configurable | No support for multipart uploads |
-| `download_file`    | Download an S3 object to a file | Retrieve files from an s3 bucket |  |  |
-| `download_fileobj` | Download an s3 object to a file like obj (binary |  |  |  |
-| `get_object`       | Retrieves an object from Amazon S3 using low-level s3 api |  | configurable |  |
+| `upload_file`      | Handles large file uploads by chunking. | Uploading large files to s3. | supports multi-part uploads. | less configurable. |
+| `upload_fileobj`   | Upload readbale file-like objects that are in binary or no-text mode. | Object is file-like. |  |          |
+| `put_object`       | Adds object/file to s3 using low-level s3 api. |  | configurable. | No support for multipart uploads. |
+| `download_file`    | Download an S3 object to a file | Retrieve files from an s3 bucket. |  |  |
+| `download_fileobj` | Download an s3 object to a file like obj (binary). |  |  |  |
+| `get_object`       | Retrieves an object from Amazon S3 using low-level s3 api. |  | configurable. |  |
 
 #### Reflection Questions:
 
