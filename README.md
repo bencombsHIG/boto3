@@ -1,2 +1,2 @@
 # boto3
-![end to end boto pipeline](boto.png)
+![end to end boto pipeline](botodiagram.png)
